@@ -1,4 +1,5 @@
-[demonstration video](https://youtu.be/OhuV91XRvXM)
+#Overview
+[demo video](https://youtu.be/OhuV91XRvXM)
 
 
 I created two state machines: one for button pushes and another for the posting to the web app. I also created four variables: `morse_code` (representing the sequence of . and _ displayed on the TFT screen), `current_letter` (representing the letter or digit the user is currently encoding), `deciphered` (representing the translated English message from the Morse Code), and `valid` (1 for a valid Morse Code translation and 0 for an invalid Morse Code translation). I initiated `valid=1`.
